@@ -40,7 +40,7 @@ public class Main extends JavaPlugin{
 	}
 	@Override
 	public void onEnable() {
-		CommandUtils.commands.put("latex",(event,args)->{
+		CommandUtils.commands.put("#latex",(event,args)->{
 			String toexec=String.join(CommandUtils.spliter, Arrays.copyOfRange(args, 1, args.length));
 				try {
 					TimedExecute(()->{
@@ -56,7 +56,7 @@ public class Main extends JavaPlugin{
 				}
 
 		});
-		CommandUtils.commands.put("tex",(event,args)->{
+		CommandUtils.commands.put("#tex",(event,args)->{
 			String toexec=String.join(CommandUtils.spliter, Arrays.copyOfRange(args, 1, args.length));
 				try {
 					TimedExecute(()->{
@@ -72,7 +72,7 @@ public class Main extends JavaPlugin{
 				}
 
 		});
-		CommandUtils.commands.put("texp",(event,args)->{
+		CommandUtils.commands.put("#texp",(event,args)->{
 			String toexec=String.join(CommandUtils.spliter, Arrays.copyOfRange(args, 2, args.length));
 				try {
 					TimedExecute(()->{
