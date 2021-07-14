@@ -88,6 +88,7 @@ public class Main extends JavaPlugin{
 				}
 
 		});
+		CommandUtils.register();
 		getLogger().info("插件加载完毕!");
 	}
 

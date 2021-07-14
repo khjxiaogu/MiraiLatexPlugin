@@ -16,7 +16,7 @@ import net.mamoe.mirai.event.events.StrangerMessageEvent;
 public class CommandUtils {
 	public static Map<String, BiConsumer<MessageEvent, String[]>> commands = new ConcurrentHashMap<>();
 	public final static String spliter = " ";
-	static {
+	public static void register(){
 		GlobalEventChannel.INSTANCE.registerListenerHost(new SimpleListenerHost(MiraiConsole.INSTANCE.getCoroutineContext()) {
 			@EventHandler
 			public void onGroup(GroupMessageEvent event) {
