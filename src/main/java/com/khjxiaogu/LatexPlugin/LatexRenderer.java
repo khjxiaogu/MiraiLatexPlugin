@@ -88,7 +88,7 @@ public class LatexRenderer {
 		// 3. Execute LaTeX from command line to generate picture
 		ProcessBuilder pb = new ProcessBuilder("xelatex","-halt-on-error","-shell-escape", all.getAbsolutePath()+ ".tex");
 		//magick -antialias  D:\_tmp\New22.pdf   D:\_tmp\New22.png
-		pb.directory(new File(cfn.getAbsolutePath()+"\\"));
+		pb.directory(new File(cfn.getAbsolutePath()+File.separatorChar));
 		ByteArrayOutputStream err=new ByteArrayOutputStream();
 
 		try {

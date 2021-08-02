@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.khjxiaogu</groupId>
 	<artifactId>LatexPlugin</artifactId>
-	<version>0.2.0</version>
+	<version>0.2.1</version>
 	<name>Latex插件</name>
 	<description></description>
 	<build>
