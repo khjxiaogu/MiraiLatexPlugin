@@ -1,5 +1,5 @@
 # mirai latex渲染插件
-通过调用命令行来渲染latex的插件
+通过调用命令行来渲染latex并且以图片形式发出的的插件  
 ![GitHub All Releases](https://img.shields.io/github/downloads/khjxiaogu/MiraiLatexPlugin/total?label=%E4%B8%8B%E8%BD%BD%E9%87%8F&style=social)
 ![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/khjxiaogu/MiraiLatexPlugin?label=%E5%BD%93%E5%89%8D%E7%89%88%E6%9C%AC)
 ![GitHub stars](https://img.shields.io/github/stars/khjxiaogu/MiraiLatexPlugin?style=social)
